@@ -12,6 +12,9 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+
+    implementation("com.drewnoakes:metadata-extractor:2.14.0")
+
     testImplementation("junit", "junit", "4.12")
 }
 
